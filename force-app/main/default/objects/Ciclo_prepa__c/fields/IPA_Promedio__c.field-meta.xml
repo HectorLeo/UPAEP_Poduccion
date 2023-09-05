@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IPA_Promedio__c</fullName>
+    <description>Inicio de Proceso de Admisión -&gt; Indica el promedio actual</description>
+    <externalId>false</externalId>
+    <label>Promedio</label>
+    <precision>4</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DictamenAceptado__c</fullName>
+    <description>El tipo de dictamen de Admisión es Aceptado</description>
+    <externalId>false</externalId>
+    <formula>OR (ISPICKVAL(Dictamen__c,&apos;ADMITIDO&apos;),ISPICKVAL(Dictamen__c,&apos;ADMITIDO CON PASE DIRECTO&apos;), ISPICKVAL(Dictamen__c,&apos;ADMITIDO CON TUTORIA&apos;),
+ ISPICKVAL(Dictamen__c,&apos;CONDICIONADO&apos;), ISPICKVAL(Dictamen__c,&apos;RECOMENDACIÓN&apos;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Dictamen tipo Aceptado</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

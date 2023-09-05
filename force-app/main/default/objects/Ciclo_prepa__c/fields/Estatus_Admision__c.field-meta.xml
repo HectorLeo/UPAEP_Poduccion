@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estatus_Admision__c</fullName>
+    <description>Estatus de Admisiones -&gt; se calcula en función de los conceptos</description>
+    <externalId>false</externalId>
+    <label>Estatus de Admisiones</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ASPIRANTE</fullName>
+                <default>true</default>
+                <label>ASPIRANTE</label>
+            </value>
+            <value>
+                <fullName>ASPIRANTE CON EXAMEN</fullName>
+                <default>false</default>
+                <label>ASPIRANTE CON EXAMEN</label>
+            </value>
+            <value>
+                <fullName>ASPIRANTE POR DICTAMINAR</fullName>
+                <default>false</default>
+                <label>ASPIRANTE POR DICTAMINAR</label>
+            </value>
+            <value>
+                <fullName>ASPIRANTE POR MATRICULAR</fullName>
+                <default>false</default>
+                <label>ASPIRANTE POR MATRICULAR</label>
+            </value>
+            <value>
+                <fullName>ASPIRANTE MATRICULADO</fullName>
+                <default>false</default>
+                <label>ASPIRANTE MATRICULADO</label>
+            </value>
+            <value>
+                <fullName>ASPIRANTE PAGO PARCIAL</fullName>
+                <default>false</default>
+                <label>ASPIRANTE PAGO PARCIAL</label>
+            </value>
+            <value>
+                <fullName>ASPIRANTE PAGO TOTAL</fullName>
+                <default>false</default>
+                <label>ASPIRANTE PAGO TOTAL</label>
+            </value>
+            <value>
+                <fullName>ASPIRANTE NO ADMITIDO</fullName>
+                <default>false</default>
+                <label>ASPIRANTE NO ADMITIDO</label>
+            </value>
+            <value>
+                <fullName>ASPIRANTE NO INTERESADO</fullName>
+                <default>false</default>
+                <label>ASPIRANTE NO INTERESADO</label>
+            </value>
+            <value>
+                <fullName>ASPIRANTE PENDIENTE</fullName>
+                <default>false</default>
+                <label>ASPIRANTE PENDIENTE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

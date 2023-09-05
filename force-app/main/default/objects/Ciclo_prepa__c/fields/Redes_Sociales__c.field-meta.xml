@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Redes_Sociales__c</fullName>
+    <externalId>false</externalId>
+    <label>Redes Sociales</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>A Diseño</fullName>
+                <default>false</default>
+                <label>A Diseño</label>
+            </value>
+            <value>
+                <fullName>App UPAEP</fullName>
+                <default>false</default>
+                <label>App UPAEP</label>
+            </value>
+            <value>
+                <fullName>Boletin EC</fullName>
+                <default>false</default>
+                <label>Boletin EC</label>
+            </value>
+            <value>
+                <fullName>Econsulta</fullName>
+                <default>false</default>
+                <label>Econsulta</label>
+            </value>
+            <value>
+                <fullName>Educaedu</fullName>
+                <default>false</default>
+                <label>Educaedu</label>
+            </value>
+            <value>
+                <fullName>El Universal</fullName>
+                <default>false</default>
+                <label>El Universal</label>
+            </value>
+            <value>
+                <fullName>Engagement</fullName>
+                <default>false</default>
+                <label>Engagement</label>
+            </value>
+            <value>
+                <fullName>Expansión</fullName>
+                <default>false</default>
+                <label>Expansión</label>
+            </value>
+            <value>
+                <fullName>Facebook</fullName>
+                <default>false</default>
+                <label>Facebook</label>
+            </value>
+            <value>
+                <fullName>Facebook-Abierta</fullName>
+                <default>false</default>
+                <label>Facebook-Abierta</label>
+            </value>
+            <value>
+                <fullName>Facebook-Angelopolis</fullName>
+                <default>false</default>
+                <label>Facebook-Angelopolis</label>
+            </value>
+            <value>
+                <fullName>Facebook-Atlixco</fullName>
+                <default>false</default>
+                <label>Facebook-Atlixco</label>
+            </value>
+            <value>
+                <fullName>Facebook-Cholula</fullName>
+                <default>false</default>
+                <label>Facebook-Cholula</label>
+            </value>
+            <value>
+                <fullName>Facebook-Cineminutos</fullName>
+                <default>false</default>
+                <label>Facebook-Cineminutos</label>
+            </value>
+            <value>
+                <fullName>Facebook-Interprepas</fullName>
+                <default>false</default>
+                <label>Facebook-Interprepas</label>
+            </value>
+            <value>
+                <fullName>Facebook Lic. Ciencias Políticias</fullName>
+                <default>false</default>
+                <label>Facebook Lic. Ciencias Políticias</label>
+            </value>
+            <value>
+                <fullName>Facebook Lic. en Idiomas</fullName>
+                <default>false</default>
+                <label>Facebook Lic. en Idiomas</label>
+            </value>
+            <value>
+                <fullName>Facebook Lic. Humanidades</fullName>
+                <default>false</default>
+                <label>Facebook Lic. Humanidades</label>
+            </value>
+            <value>
+                <fullName>Facebook Lic. Ing Ambiental</fullName>
+                <default>false</default>
+                <label>Facebook Lic. Ing Ambiental</label>
+            </value>
+            <value>
+                <fullName>Facebook Lic. Ing Autopartes</fullName>
+                <default>false</default>
+                <label>Facebook Lic. Ing Autopartes</label>
+            </value>
+            <value>
+                <fullName>Facebook-San Martin</fullName>
+                <default>false</default>
+                <label>Facebook-San Martin</label>
+            </value>
+            <value>
+                <fullName>Facebook-Santa Ana</fullName>
+                <default>false</default>
+                <label>Facebook-Santa Ana</label>
+            </value>
+            <value>
+                <fullName>Facebook-Sur</fullName>
+                <default>false</default>
+                <label>Facebook-Sur</label>
+            </value>
+            <value>
+                <fullName>Google</fullName>
+                <default>false</default>
+                <label>Google</label>
+            </value>
+            <value>
+                <fullName>Google Display</fullName>
+                <default>false</default>
+                <label>Google Display</label>
+            </value>
+            <value>
+                <fullName>Google Search</fullName>
+                <default>false</default>
+                <label>Google Search</label>
+            </value>
+            <value>
+                <fullName>Google Youtube</fullName>
+                <default>false</default>
+                <label>Google Youtube</label>
+            </value>
+            <value>
+                <fullName>Hispavista</fullName>
+                <default>false</default>
+                <label>Hispavista</label>
+            </value>
+            <value>
+                <fullName>Jungla de Mariano</fullName>
+                <default>false</default>
+                <label>Jungla de Mariano</label>
+            </value>
+            <value>
+                <fullName>Kpta</fullName>
+                <default>false</default>
+                <label>Kpta</label>
+            </value>
+            <value>
+                <fullName>Linkedin</fullName>
+                <default>false</default>
+                <label>Linkedin</label>
+            </value>
+            <value>
+                <fullName>Merca 2.0</fullName>
+                <default>false</default>
+                <label>Merca 2.0</label>
+            </value>
+            <value>
+                <fullName>Natexo</fullName>
+                <default>false</default>
+                <label>Natexo</label>
+            </value>
+            <value>
+                <fullName>Orcius</fullName>
+                <default>false</default>
+                <label>Orcius</label>
+            </value>
+            <value>
+                <fullName>Orcius Facebook</fullName>
+                <default>false</default>
+                <label>Orcius Facebook</label>
+            </value>
+            <value>
+                <fullName>Orcius Twitter</fullName>
+                <default>false</default>
+                <label>Orcius Twitter</label>
+            </value>
+            <value>
+                <fullName>Puebla 2.22</fullName>
+                <default>false</default>
+                <label>Puebla 2.22</label>
+            </value>
+            <value>
+                <fullName>Reforma</fullName>
+                <default>false</default>
+                <label>Reforma</label>
+            </value>
+            <value>
+                <fullName>Revista Cover</fullName>
+                <default>false</default>
+                <label>Revista Cover</label>
+            </value>
+            <value>
+                <fullName>Revista Expansión</fullName>
+                <default>false</default>
+                <label>Revista Expansión</label>
+            </value>
+            <value>
+                <fullName>Revista Rostros</fullName>
+                <default>false</default>
+                <label>Revista Rostros</label>
+            </value>
+            <value>
+                <fullName>Sesiones Informativas</fullName>
+                <default>false</default>
+                <label>Sesiones Informativas</label>
+            </value>
+            <value>
+                <fullName>Software Guru</fullName>
+                <default>false</default>
+                <label>Software Guru</label>
+            </value>
+            <value>
+                <fullName>Spotify</fullName>
+                <default>false</default>
+                <label>Spotify</label>
+            </value>
+            <value>
+                <fullName>Universia</fullName>
+                <default>false</default>
+                <label>Universia</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

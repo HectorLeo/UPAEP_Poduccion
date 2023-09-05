@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dictamen__c</fullName>
+    <description>Dictamen del proceso de admisión</description>
+    <externalId>false</externalId>
+    <label>Dictamen</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ADMITIDO</fullName>
+                <default>false</default>
+                <label>ADMITIDO</label>
+            </value>
+            <value>
+                <fullName>ADMITIDO CON TUTORIA</fullName>
+                <default>false</default>
+                <label>ADMITIDO CON TUTORIA</label>
+            </value>
+            <value>
+                <fullName>CONDICIONADO</fullName>
+                <default>false</default>
+                <label>CONDICIONADO</label>
+            </value>
+            <value>
+                <fullName>DICTAMEN PENDIENTE</fullName>
+                <default>false</default>
+                <label>DICTAMEN PENDIENTE</label>
+            </value>
+            <value>
+                <fullName>LISTA DE ESPERA</fullName>
+                <default>false</default>
+                <label>LISTA DE ESPERA</label>
+            </value>
+            <value>
+                <fullName>NO ADMITIDO</fullName>
+                <default>false</default>
+                <label>NO ADMITIDO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

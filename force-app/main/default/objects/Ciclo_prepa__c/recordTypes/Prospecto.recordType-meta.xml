@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prospecto</fullName>
+    <active>true</active>
+    <description>Prospecto</description>
+    <label>Prospecto</label>
+    <picklistValues>
+        <picklist>Agencia_SocEco__c</picklist>
+        <values>
+            <fullName>ACEYE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Concepto RH</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Autorizaci_n_Cobranza__c</picklist>
+        <values>
+            <fullName>Entrega de Título</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inicio de Proceso de Titulación</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ComoTeEnteraste__c</picklist>
+        <values>
+            <fullName>AGENDA DE LA ESCUELA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMIGOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ANUNCIO INTERNET</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ANUNCIOS ESPECTACULARES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BUSQUEDA INTERNET</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COMPAÑERO DE TRABAJO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EDUCAEDU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EGRESADO UPAEP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EXA-UPAEP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FACEBOOK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FAMILIARES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAESTROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MENSAJE DE TEXTO AL CELULAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OTROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PERIODICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PERIÓDICO ONLINE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PÁGINA DE INTERNET UPAEP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RADIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RADIO ONLINE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REVISTAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TELEVISION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TELEVISIÓN ABIERTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TELEVISIÓN DE PAGA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TWITTER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VISITA A MI EMPRESA%2FINSTITUCION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VISITA A MI ESCUELA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIVENCIA VOCACIONAL</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Dictamen__c</picklist>
+        <values>
+            <fullName>ADMITIDO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ADMITIDO CON TUTORIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONDICIONADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DICTAMEN PENDIENTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LISTA DE ESPERA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NO ADMITIDO</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DoctosFaltantes_Becas__c</picklist>
+        <values>
+            <fullName>Comprobante de Domicilio</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Doctos_Entregados_Becas__c</picklist>
+        <values>
+            <fullName>Comprobante de Domicilio</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>EstatusSolicitud_BecaOrd__c</picklist>
+        <values>
+            <fullName>Pago Estudio Socioeconómico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicitud de Beca sin Documentos</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Estatus_Admision__c</picklist>
+        <values>
+            <fullName>ASPIRANTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASPIRANTE CON EXAMEN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASPIRANTE PAGO PARCIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASPIRANTE PAGO TOTAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASPIRANTE POR DICTAMINAR</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Estatus_Solicitud_Admision__c</picklist>
+        <values>
+            <fullName>SIN SOLICITUD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOLICITUD CON DOCUMENTOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOLICITUD SIN DOCUMENTOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOLICITUD VALIDADA CON DOCUMENTOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOLICITUD VALIDADA SIN DOCUMENTOS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Estatus_de_Cobranza__c</picklist>
+        <values>
+            <fullName>Al corriente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>En Gestión Moroso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>En Gestión Pagando</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>En negociación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incobrable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incobrable Insolvente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incobrable no localizado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incobrable por dolo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incobrable-Liquidado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Localizado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Localizado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Por Validar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recuperado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vencido</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>MotivoSeleccion__c</picklist>
+        <values>
+            <fullName>BUENA OPCION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COSTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CUMPLE LO QUE BUSCO EN UNA UNIVERSIDAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FLEXIBILIDAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NIVEL ACADEMICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OTRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRESTIGIO Y CALIDAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RECOMENDACION</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origen__c</picklist>
+        <values>
+            <fullName>Atención Presencial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CallCenter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Directo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ferias y Eventos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inbox</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inicia Proceso de Admisión</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mayores Informes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mercadotecnia Social</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teléfono</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visitas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Whatsapp</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origenes_Interesado__c</picklist>
+        <values>
+            <fullName>Mayores Informes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mercadotecnia Social</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sesiones Informativas</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Parentesco__c</picklist>
+        <values>
+            <fullName>MAMÁ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OTRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PAPÁ</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Prioridad__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Redes_Sociales__c</picklist>
+        <values>
+            <fullName>A Diseño</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>App UPAEP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Boletin EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Econsulta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Educaedu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>El Universal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engagement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expansión</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facebook</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facebook Lic%2E Ciencias Políticias</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facebook Lic%2E Humanidades</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facebook Lic%2E Ing Ambiental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facebook Lic%2E Ing Autopartes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facebook Lic%2E en Idiomas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facebook-Abierta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facebook-Angelopolis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facebook-Atlixco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facebook-Cholula</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facebook-Cineminutos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facebook-Interprepas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facebook-San Martin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facebook-Santa Ana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facebook-Sur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google Display</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google Search</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google Youtube</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hispavista</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jungla de Mariano</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kpta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Linkedin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Merca 2%2E0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Natexo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Orcius</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Orcius Facebook</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Orcius Twitter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Puebla 2%2E22</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reforma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revista Cover</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revista Expansión</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revista Rostros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sesiones Informativas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software Guru</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spotify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Universia</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sistema__c</picklist>
+        <values>
+            <fullName>BACHILLERATO MIXTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BACHILLERATO PUEBLA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BACHILLERATO TEHUACAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BACHILLERATO TLAXCALA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

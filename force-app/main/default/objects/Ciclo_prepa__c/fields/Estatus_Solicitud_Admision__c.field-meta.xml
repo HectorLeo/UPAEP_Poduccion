@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estatus_Solicitud_Admision__c</fullName>
+    <description>Estatus de la solicitud y documentos de admisión que se captura en UNISOFT</description>
+    <externalId>false</externalId>
+    <label>Estatus Solicitud de Admisión</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SIN SOLICITUD</fullName>
+                <default>false</default>
+                <label>SIN SOLICITUD</label>
+            </value>
+            <value>
+                <fullName>SOLICITUD SIN DOCUMENTOS</fullName>
+                <default>false</default>
+                <label>SOLICITUD SIN DOCUMENTOS</label>
+            </value>
+            <value>
+                <fullName>SOLICITUD CON DOCUMENTOS</fullName>
+                <default>false</default>
+                <label>SOLICITUD CON DOCUMENTOS</label>
+            </value>
+            <value>
+                <fullName>SOLICITUD VALIDADA SIN DOCUMENTOS</fullName>
+                <default>false</default>
+                <label>SOLICITUD VALIDADA SIN DOCUMENTOS</label>
+            </value>
+            <value>
+                <fullName>SOLICITUD VALIDADA CON DOCUMENTOS</fullName>
+                <default>false</default>
+                <label>SOLICITUD VALIDADA CON DOCUMENTOS</label>
+            </value>
+            <value>
+                <fullName>SOLICITUD Y DOCUMENTOS VALIDADOS</fullName>
+                <default>false</default>
+                <label>SOLICITUD Y DOCUMENTOS VALIDADOS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

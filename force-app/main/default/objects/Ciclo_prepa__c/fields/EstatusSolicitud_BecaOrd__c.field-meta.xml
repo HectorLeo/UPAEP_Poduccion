@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EstatusSolicitud_BecaOrd__c</fullName>
+    <externalId>false</externalId>
+    <label>Estatus De Solicitud - Beca Ordinaria</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pago Estudio Socioeconómico</fullName>
+                <default>false</default>
+                <label>Pago Estudio Socioeconómico</label>
+            </value>
+            <value>
+                <fullName>Solicitud de Beca sin Documentos</fullName>
+                <default>false</default>
+                <label>Solicitud de Beca sin Documentos</label>
+            </value>
+            <value>
+                <fullName>Documentos Incompletos</fullName>
+                <default>false</default>
+                <label>Documentos Incompletos</label>
+            </value>
+            <value>
+                <fullName>Documentos Completos</fullName>
+                <default>false</default>
+                <label>Documentos Completos</label>
+            </value>
+            <value>
+                <fullName>En Proceso de Estudio Socioeconómico</fullName>
+                <default>false</default>
+                <label>En Proceso de Estudio Socioeconómico</label>
+            </value>
+            <value>
+                <fullName>Resolutivo – Beca Otorgada</fullName>
+                <default>false</default>
+                <label>Resolutivo – Beca Otorgada</label>
+            </value>
+            <value>
+                <fullName>Resolutivo - Beca No Otorgada</fullName>
+                <default>false</default>
+                <label>Resolutivo - Beca No Otorgada</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

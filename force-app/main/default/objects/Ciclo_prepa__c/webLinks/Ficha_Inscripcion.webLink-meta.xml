@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ficha_Inscripcion</fullName>
+    <availability>online</availability>
+    <description>PDF Ficha Inscripción</description>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Ficha Inscripción</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>console.log({!Ciclo_prepa__c.Matricula__c });
+console.log({!Ciclo_prepa__c.Digito_Verificador__c });
+
+if ( &quot;{!Ciclo_prepa__c.Matricula__c }&quot; != null &amp;&amp; &quot;{!Ciclo_prepa__c.Digito_Verificador__c }&quot; != null &amp;&amp; &quot;{!Ciclo_prepa__c.Matricula__c }&quot; != &quot;&quot; &amp;&amp; &quot;{!Ciclo_prepa__c.Digito_Verificador__c }&quot; != &quot;&quot;)
+{
+
+window.open(&quot;/apex/FichaInsPrePa?id={!Ciclo_prepa__c.Id}&amp;scontrolCaching=1&quot;,&quot;_blank&quot;, &quot;toolbar=yes, scrollbars=yes, resizable=yes, top=900, left=900, width=600, height=600&quot;);
+
+}else{
+
+alert(&quot;ESTA ACCIÓN NO SE PUEDE USAR, FALTAN CAMPOS OBLIGATORIOS: Matricula y/o Digito Verificador&quot;);
+}</url>
+</WebLink>

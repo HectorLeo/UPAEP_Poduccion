@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Aspirante_Activo__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(( RecordType.Name = &apos;Aspirante&apos;  &amp;&amp; (Periodo__c = &apos;OTOÑO 2017&apos;  || Periodo__c = &apos;VERANO 2017&apos; || Periodo__c = &apos;INVIERNO 2017&apos;)),TRUE,FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Aspirante Activo</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

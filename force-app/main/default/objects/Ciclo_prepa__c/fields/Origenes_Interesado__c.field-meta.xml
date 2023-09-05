@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Origenes_Interesado__c</fullName>
+    <description>Lista de origenes desde los cuales se ha registrado el interesado / aspirante</description>
+    <externalId>false</externalId>
+    <label>Origenes Interesado</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Mayores Informes</fullName>
+                <default>false</default>
+                <label>Mayores Informes</label>
+            </value>
+            <value>
+                <fullName>Mercadotecnia Social</fullName>
+                <default>false</default>
+                <label>Mercadotecnia Social</label>
+            </value>
+            <value>
+                <fullName>Sesiones Informativas</fullName>
+                <default>false</default>
+                <label>Sesiones Informativas</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

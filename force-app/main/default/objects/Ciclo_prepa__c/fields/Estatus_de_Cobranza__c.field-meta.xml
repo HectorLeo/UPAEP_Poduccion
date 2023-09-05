@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estatus_de_Cobranza__c</fullName>
+    <externalId>false</externalId>
+    <label>Estatus de Cobranza</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Al corriente</fullName>
+                <default>false</default>
+                <label>Al corriente</label>
+            </value>
+            <value>
+                <fullName>En Gestión Moroso</fullName>
+                <default>false</default>
+                <label>En Gestión Moroso</label>
+            </value>
+            <value>
+                <fullName>En Gestión Pagando</fullName>
+                <default>false</default>
+                <label>En Gestión Pagando</label>
+            </value>
+            <value>
+                <fullName>En negociación</fullName>
+                <default>false</default>
+                <label>En negociación</label>
+            </value>
+            <value>
+                <fullName>Incobrable</fullName>
+                <default>false</default>
+                <label>Incobrable</label>
+            </value>
+            <value>
+                <fullName>Incobrable Insolvente</fullName>
+                <default>false</default>
+                <label>Incobrable Insolvente</label>
+            </value>
+            <value>
+                <fullName>Incobrable-Liquidado</fullName>
+                <default>false</default>
+                <label>Incobrable-Liquidado</label>
+            </value>
+            <value>
+                <fullName>Incobrable no localizado</fullName>
+                <default>false</default>
+                <label>Incobrable no localizado</label>
+            </value>
+            <value>
+                <fullName>Incobrable por dolo</fullName>
+                <default>false</default>
+                <label>Incobrable por dolo</label>
+            </value>
+            <value>
+                <fullName>Localizado</fullName>
+                <default>false</default>
+                <label>Localizado</label>
+            </value>
+            <value>
+                <fullName>No Localizado</fullName>
+                <default>false</default>
+                <label>No Localizado</label>
+            </value>
+            <value>
+                <fullName>Por Validar</fullName>
+                <default>false</default>
+                <label>Por Validar</label>
+            </value>
+            <value>
+                <fullName>Recuperado</fullName>
+                <default>false</default>
+                <label>Recuperado</label>
+            </value>
+            <value>
+                <fullName>Vencido</fullName>
+                <default>false</default>
+                <label>Vencido</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

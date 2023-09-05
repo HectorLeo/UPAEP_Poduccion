@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clave_Dictamen__c</fullName>
+    <description>Clave del catálogo de dictámenes en Unisoft</description>
+    <externalId>false</externalId>
+    <formula>if (ISPICKVAL(Dictamen__c,&apos;ADMITIDO&apos;),&quot;A&quot;, 
+     if (ISPICKVAL(Dictamen__c,&apos;ADMITIDO CON PASE DIRECTO&apos;),&quot;AD&quot;,if (ISPICKVAL(Dictamen__c,&apos;ADMITIDO CON PASE DIRECTO&apos;),&quot;AD&quot;,
+      if (ISPICKVAL(Dictamen__c,&apos;ADMITIDO CON PASE DIRECTO&apos;),&quot;AD&quot;,
+        if (ISPICKVAL(Dictamen__c,&apos;ADMITIDO CON TUTORIA&apos;),&quot;AT&quot;,
+          if (ISPICKVAL(Dictamen__c,&apos;CONDICIONADO&apos;),&quot;C&quot;,
+           if (ISPICKVAL(Dictamen__c,&apos;DICTAMEN PENDIENTE&apos;),&quot;DP&quot;,
+            if (ISPICKVAL(Dictamen__c,&apos;DICTAMEN PENDIENTE POR EXAMEN&apos;),&quot;DPE&quot;, 
+              if (ISPICKVAL(Dictamen__c,&apos;DICTAMEN PENDIENTE POR PROMEDIO&apos;),&quot;DPP&quot;,             
+               if (ISPICKVAL(Dictamen__c,&apos;DICTAMEN PENDIENTE POR REQUISITOS&apos;),&quot;DPR&quot;,
+                 if (ISPICKVAL(Dictamen__c,&apos;ENTREVISTA&apos;),&quot;EN&quot;,
+                    if (ISPICKVAL(Dictamen__c,&apos;EXAMEN ACREDITADO SIN DOCUMENTOS&apos;),&quot;ACR&quot;,
+                      if (ISPICKVAL(Dictamen__c,&apos;EXAMEN ACREDITADO SIN DOCUMENTOS&apos;),&quot;ACR&quot;,
+                         if (ISPICKVAL(Dictamen__c,&apos;EXAMEN PRESENTADO SIN PROMEDIO REVISADO&apos;),&quot;PCR&quot;,
+                           if (ISPICKVAL(Dictamen__c,&apos;LISTA DE ESPERA&apos;),&quot;LE&quot;,
+                            if (ISPICKVAL(Dictamen__c,&apos;NO ADMITIDO&apos;),&quot;NA&quot;,
+                               if (ISPICKVAL(Dictamen__c,&apos;NO ADMITIDO DEFINITIVO&apos;),&quot;NAD&quot;,
+                                  if (ISPICKVAL(Dictamen__c,&apos;PENDIENTE AUTORIZACIÓN&apos;),&quot;PA&quot;,
+                                      if (ISPICKVAL(Dictamen__c,&apos;RECOMENDACIÓN&apos;),&quot;R&quot;,&quot;&quot;)) )) )) )) )) )) )) )) )))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Clave Dictamen</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

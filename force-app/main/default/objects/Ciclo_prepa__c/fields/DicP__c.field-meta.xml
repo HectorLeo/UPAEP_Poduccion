@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DicP__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF ( (ISPICKVAL( Dictamen__c , &apos;DICTAMEN PENDIENTE&apos;) || ISPICKVAL( Dictamen__c , &apos;DICTAMEN PENDIENTE POR REQUISITOS&apos;) || ISPICKVAL( Dictamen__c , &apos;LISTA DE ESPERA&apos;) || ( Resultados_Examen_Admisi_n__c &lt;&gt; NULL  &amp;&amp;  Clave_Dictamen__c = null )) &amp;&amp; Aspirante_Desertor__c = False, 1,0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>DP</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

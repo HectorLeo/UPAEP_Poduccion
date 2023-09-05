@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ComoTeEnteraste__c</fullName>
+    <description>Indica como se enteró de prepa UPAEP</description>
+    <externalId>false</externalId>
+    <label>Como te enteraste</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AGENDA DE LA ESCUELA</fullName>
+                <default>false</default>
+                <label>AGENDA DE LA ESCUELA</label>
+            </value>
+            <value>
+                <fullName>AMIGOS</fullName>
+                <default>false</default>
+                <label>AMIGOS</label>
+            </value>
+            <value>
+                <fullName>ANUNCIO INTERNET</fullName>
+                <default>false</default>
+                <label>ANUNCIO INTERNET</label>
+            </value>
+            <value>
+                <fullName>ANUNCIOS ESPECTACULARES</fullName>
+                <default>false</default>
+                <label>ANUNCIOS ESPECTACULARES</label>
+            </value>
+            <value>
+                <fullName>BUSQUEDA INTERNET</fullName>
+                <default>false</default>
+                <label>BUSQUEDA INTERNET</label>
+            </value>
+            <value>
+                <fullName>COMPAÑERO DE TRABAJO</fullName>
+                <default>false</default>
+                <label>COMPAÑERO DE TRABAJO</label>
+            </value>
+            <value>
+                <fullName>EDUCAEDU</fullName>
+                <default>false</default>
+                <label>EDUCAEDU</label>
+            </value>
+            <value>
+                <fullName>EGRESADO UPAEP</fullName>
+                <default>false</default>
+                <label>EGRESADO UPAEP</label>
+            </value>
+            <value>
+                <fullName>EXA-UPAEP</fullName>
+                <default>false</default>
+                <label>EXA-UPAEP</label>
+            </value>
+            <value>
+                <fullName>FACEBOOK</fullName>
+                <default>false</default>
+                <label>FACEBOOK</label>
+            </value>
+            <value>
+                <fullName>FAMILIARES</fullName>
+                <default>false</default>
+                <label>FAMILIARES</label>
+            </value>
+            <value>
+                <fullName>MAESTROS</fullName>
+                <default>false</default>
+                <label>MAESTROS</label>
+            </value>
+            <value>
+                <fullName>MENSAJE DE TEXTO AL CELULAR</fullName>
+                <default>false</default>
+                <label>MENSAJE DE TEXTO AL CELULAR</label>
+            </value>
+            <value>
+                <fullName>OTROS</fullName>
+                <default>false</default>
+                <label>OTROS</label>
+            </value>
+            <value>
+                <fullName>PÁGINA DE INTERNET UPAEP</fullName>
+                <default>false</default>
+                <label>PÁGINA DE INTERNET UPAEP</label>
+            </value>
+            <value>
+                <fullName>PERIODICO</fullName>
+                <default>false</default>
+                <label>PERIODICO</label>
+            </value>
+            <value>
+                <fullName>PERIÓDICO ONLINE</fullName>
+                <default>false</default>
+                <label>PERIÓDICO ONLINE</label>
+            </value>
+            <value>
+                <fullName>RADIO</fullName>
+                <default>false</default>
+                <label>RADIO</label>
+            </value>
+            <value>
+                <fullName>RADIO ONLINE</fullName>
+                <default>false</default>
+                <label>RADIO ONLINE</label>
+            </value>
+            <value>
+                <fullName>REVISTAS</fullName>
+                <default>false</default>
+                <label>REVISTAS</label>
+            </value>
+            <value>
+                <fullName>TELEVISION</fullName>
+                <default>false</default>
+                <label>TELEVISION</label>
+            </value>
+            <value>
+                <fullName>TELEVISIÓN ABIERTA</fullName>
+                <default>false</default>
+                <label>TELEVISIÓN ABIERTA</label>
+            </value>
+            <value>
+                <fullName>TELEVISIÓN DE PAGA</fullName>
+                <default>false</default>
+                <label>TELEVISIÓN DE PAGA</label>
+            </value>
+            <value>
+                <fullName>TWITTER</fullName>
+                <default>false</default>
+                <label>TWITTER</label>
+            </value>
+            <value>
+                <fullName>VISITA A MI EMPRESA/INSTITUCION</fullName>
+                <default>false</default>
+                <label>VISITA A MI EMPRESA/INSTITUCION</label>
+            </value>
+            <value>
+                <fullName>VISITA A MI ESCUELA</fullName>
+                <default>false</default>
+                <label>VISITA A MI ESCUELA</label>
+            </value>
+            <value>
+                <fullName>VIVENCIA VOCACIONAL</fullName>
+                <default>false</default>
+                <label>VIVENCIA VOCACIONAL</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

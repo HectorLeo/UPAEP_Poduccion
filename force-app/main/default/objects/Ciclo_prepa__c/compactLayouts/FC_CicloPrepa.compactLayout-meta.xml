@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FC_CicloPrepa</fullName>
+    <fields>Name</fields>
+    <fields>Matricula__c</fields>
+    <fields>ID_Unisoft__c</fields>
+    <fields>Plantel__c</fields>
+    <label>FC_CicloPrepa</label>
+</CompactLayout>
